@@ -1,0 +1,50 @@
+{
+  "apiVersion": "v3",
+  "kind": "service",
+  "metadata": {
+    "name": "rolldice.service",
+    "inheritFrom": "application:default/myapp",
+    "description": "This service provides a roll of the dice random number generator.",
+    "displayName": "Roll Dice Service",
+    "tags": [
+      "this:tag",
+      "that:tag"
+    ],
+    "owner": "roll-dice-team",
+    "links": [
+      {
+        "name": "repo",
+        "type": "repo",
+        "provider": "github",
+        "url": "https://github.com/billmeyer/go-otel-core"
+      },
+      {
+        "name": "docs",
+        "type": "runbook",
+        "provider": "Confluence",
+        "url": "https://atlassian.com"
+      }
+    ],
+    "contacts": [
+      {
+        "type": "slack",
+        "contact": "https://slack/"
+      }
+    ]
+  },
+  "integrations": {
+    "pagerduty": {
+      "serviceURL": "https://www.pagerduty.com/service-directory/Pshopping-cart"
+    },
+    "opsgenie": {
+      "serviceURL": "https://www.opsgenie.com/service/shopping-cart"
+    }
+  },
+  "spec": {
+    "tier": "Tier 3",
+    "languages": [
+      "go"
+    ],
+    "type": "web"
+  }
+}

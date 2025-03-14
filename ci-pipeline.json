@@ -1,0 +1,22 @@
+{
+  "data": {
+    "attributes": {
+        "resource": {
+            "level": "pipeline",
+            "unique_id": "76754c7e-f50e-4719-acf0-3aeac08d05de",
+            "name": "Roll Dice Pipeline",
+            "git": {
+                "repository_url": "https://github.com/billmeyer/go-otel-core",
+                "author_email": "author@org.dev",
+                "sha": "cf852e17dea14008ac83036430843a1c"
+            },
+            "status": "success",
+            "start": "2025-03-14T16:12:38-05:00",
+            "end": "2025-03-14T16:12:38-05:00",
+            "partial_retry": false,
+            "url": "http://provider.io/pipeline/0000"
+        }
+    },
+    "type": "cipipeline_resource_request"
+  }
+}
